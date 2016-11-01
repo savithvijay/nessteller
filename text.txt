@@ -1,0 +1,139 @@
+0d1e4dba73af6a9c4a117e9ad937a517 - API Key
+
+5818a0b3360f81f1045476af - Customer ID VIJAY
+1502200708031976 - Savings Account number
+5818a8a2360f81f1045476b1 - Savings AccountID
+0803197615022007 - Credit Card Account number
+5818a9ae360f81f1045476b2 - Credit Card AccountID
+0803150220071976 - Checking Account number
+5818aa95360f81f1045476b3 - Checking AccountID
+
+
+
+5818a62b360f81f1045476b0 - Customer ID Sriram
+2802067857945678 - Savings Account number
+5818abd2360f81f1045476b6 - Savings AccountID
+2802067857934567 - Credit Card Account number
+5818ab93360f81f1045476b5 - Credit Card AccountID
+2802067857923456 - Checking Account number
+5818ab60360f81f1045476b4 - Checking AccountID
+
+
+{
+  "code": 201,
+  "message": "Customer created",
+  "objectCreated": {
+    "first_name": "VIJAY",
+    "last_name": "R",
+    "address": {
+      "street_number": "1",
+      "street_name": "ALPHA AVENUE",
+      "city": "NYC",
+      "state": "NY",
+      "zip": "10020"
+    },
+    "_id": "5818a0b3360f81f1045476af"
+  }
+}
+
+{
+  "code": 201,
+  "message": "Account created",
+  "objectCreated": {
+    "type": "Savings",
+    "nickname": "Vijay",
+    "rewards": 1000,
+    "balance": 5000,
+    "account_number": "1502200708031976",
+    "customer_id": "5818a0b3360f81f1045476af",
+    "_id": "5818a8a2360f81f1045476b1"
+  }
+}
+
+{
+  "code": 201,
+  "message": "Account created",
+  "objectCreated": {
+    "type": "Credit Card",
+    "nickname": "Vijay",
+    "rewards": 4000,
+    "balance": 7500,
+    "account_number": "0803197615022007",
+    "customer_id": "5818a0b3360f81f1045476af",
+    "_id": "5818a9ae360f81f1045476b2"
+  }
+}
+
+{
+  "code": 201,
+  "message": "Account created",
+  "objectCreated": {
+    "type": "Checking",
+    "nickname": "Vijay",
+    "rewards": 2000,
+    "balance": 1500,
+    "account_number": "0803150220071976",
+    "customer_id": "5818a0b3360f81f1045476af",
+    "_id": "5818aa95360f81f1045476b3"
+  }
+}
+
+
+{
+  "code": 201,
+  "message": "Customer created",
+  "objectCreated": {
+    "first_name": "Sriram",
+    "last_name": "R",
+    "address": {
+      "street_number": "10",
+      "street_name": "Jubilee Road",
+      "city": "NYC",
+      "state": "NY",
+      "zip": "10020"
+    },
+    "_id": "5818a62b360f81f1045476b0"
+  }
+}
+
+{
+  "code": 201,
+  "message": "Account created",
+  "objectCreated": {
+    "type": "Checking",
+    "nickname": "Sriram",
+    "rewards": 2000,
+    "balance": 2500,
+    "account_number": "2802067857923456",
+    "customer_id": "5818a62b360f81f1045476b0",
+    "_id": "5818ab60360f81f1045476b4"
+  }
+}
+
+{
+  "code": 201,
+  "message": "Account created",
+  "objectCreated": {
+    "type": "Credit Card",
+    "nickname": "Sriram",
+    "rewards": 3000,
+    "balance": 5500,
+    "account_number": "2802067857934567",
+    "customer_id": "5818a62b360f81f1045476b0",
+    "_id": "5818ab93360f81f1045476b5"
+  }
+}
+
+{
+  "code": 201,
+  "message": "Account created",
+  "objectCreated": {
+    "type": "Savings",
+    "nickname": "Sriram",
+    "rewards": 1000,
+    "balance": 3500,
+    "account_number": "2802067857945678",
+    "customer_id": "5818a62b360f81f1045476b0",
+    "_id": "5818abd2360f81f1045476b6"
+  }
+}
